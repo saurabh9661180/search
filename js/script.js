@@ -92,9 +92,9 @@ const BING_AUTOSEARCH = {
         }
     },
     search: {
-        limit: 35,
-        interval: 10000,
-        multitab: false,
+        limit: 50,
+        interval: 300000,
+        multitab: true,
         engine: {
             terms: {
                 lists: [
