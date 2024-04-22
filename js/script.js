@@ -107,7 +107,8 @@ const BING_AUTOSEARCH = {
         "blueberry",
         "watermelon",
         "kiwi",
-        "peach"],
+        "peach"]
+                    ],
                 random: () => {
                     let list = BING_AUTOSEARCH.search.engine.terms.lists[Math.floor(Math.random() * BING_AUTOSEARCH.search.engine.terms.lists.length)];
                     let term = list[Math.floor(Math.random() * list.length)];
